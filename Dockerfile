@@ -27,7 +27,7 @@ RUN python -m venv /py && \
 
 
 # This adds the /py/bin directory to the system's PATH environment variable. This ensures that the commands
-# inside the virtual environment can be executed without specifying the full path.
+# inside the virtual environment can be executed without specifying full path.
 ENV PATH="/py/bin:$PATH"
 
 # This sets the user context to django-user. Any subsequent commands will be executed as
